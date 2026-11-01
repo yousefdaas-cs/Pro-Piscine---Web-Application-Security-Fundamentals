@@ -1,0 +1,12 @@
+time="2026-11-01T13:41:39+03:00" level=warning msg="/home/ydaas/Downloads/cyber1x2.1.00/pro_02/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+time="2026-11-01T13:41:39+03:00" level=warning msg="/home/ydaas/Downloads/cyber1x2.1.00/pro_02/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+ Image pro_02-ssrf-lfi-app Building 
+ Image pro_02-ssrf-lfi-app Built 
+ Network pro_02_default Creating 
+ Network pro_02_default Creating 
+ Network pro_02_default Created 
+ Network pro_02_default Created 
+ Container pro_02-ssrf-lfi-app-1 Creating 
+ Container pro_02-ssrf-lfi-app-1 Created 
+ Container pro_02-ssrf-lfi-app-1 Starting 
+ Container pro_02-ssrf-lfi-app-1 Started 
